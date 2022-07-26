@@ -1,4 +1,4 @@
-export const API_BASE_URL = "http://127.0.0.1:8080/api";
+export const API_BASE_URL = "https://ilearning-task-4-api.herokuapp.com/api";
 
 export const AUTH_API = {
   SIGN_IN: "/authentication/sign-in",
