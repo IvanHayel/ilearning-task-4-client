@@ -1,0 +1,32 @@
+.board {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background-color: whitesmoke;
+  margin-top: 1vh;
+  box-shadow: 0 0 10px rgb(0 0 0 / 10%);
+
+  .action-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2vw;
+    color: rgba(0, 0, 0, 0.5);
+    margin-bottom: 1vh;
+  }
+
+  .board-title {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+    font-weight: 600;
+    color: mediumpurple;
+    user-select: none;
+    text-shadow: white 0 0 10px;
+  }
+
+  .board-grid {
+    background-color: white;
+    padding: 5px;
+  }
+}
